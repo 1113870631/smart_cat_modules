@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "cdev.h": "c",
+        "module.h": "c",
+        "gpio.h": "c",
+        "device.h": "c"
+    }
+}
