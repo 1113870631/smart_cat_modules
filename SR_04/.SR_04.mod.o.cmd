@@ -1,8 +1,8 @@
-cmd_/home/ww/smart/modules/SR_04/SR_04.mod.o := /home/ww/smart/orangepi-build/toolchains/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Wp,-MD,/home/ww/smart/modules/SR_04/.SR_04.mod.o.d  -nostdinc -isystem /home/ww/smart/orangepi-build/toolchains/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/5.5.0/include -I/home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-sunxi/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(SR_04.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(SR_04)" -DMODULE  -c -o /home/ww/smart/modules/SR_04/SR_04.mod.o /home/ww/smart/modules/SR_04/SR_04.mod.c
+cmd_/home/ww/workspace/orangepi/smart_cat_modules/SR_04/SR_04.mod.o := /home/ww/workspace/orangepi/orangepi-build/toolchains/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc -Wp,-MD,/home/ww/workspace/orangepi/smart_cat_modules/SR_04/.SR_04.mod.o.d  -nostdinc -isystem /home/ww/workspace/orangepi/orangepi-build/toolchains/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/5.5.0/include -I/home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/include/linux/kconfig.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-sunxi/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-dwarf2-cfi-asm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -fno-ipa-sra -mabi=aapcs-linux -mno-thumb-interwork -mfpu=vfp -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -pg -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(SR_04.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(SR_04)" -DMODULE  -c -o /home/ww/workspace/orangepi/smart_cat_modules/SR_04/SR_04.mod.o /home/ww/workspace/orangepi/smart_cat_modules/SR_04/SR_04.mod.c
 
-source_/home/ww/smart/modules/SR_04/SR_04.mod.o := /home/ww/smart/modules/SR_04/SR_04.mod.c
+source_/home/ww/workspace/orangepi/smart_cat_modules/SR_04/SR_04.mod.o := /home/ww/workspace/orangepi/smart_cat_modules/SR_04/SR_04.mod.c
 
-deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
+deps_/home/ww/workspace/orangepi/smart_cat_modules/SR_04/SR_04.mod.o := \
     $(wildcard include/config/module/unload.h) \
   include/linux/module.h \
     $(wildcard include/config/sysfs.h) \
@@ -25,7 +25,7 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
     $(wildcard include/config/arch/dma/addr/t/64bit.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/types.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
   arch/arm/include/generated/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
@@ -42,13 +42,13 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler-gcc5.h \
     $(wildcard include/config/arch/use/builtin/bswap.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/posix_types.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/posix_types.h \
   include/asm-generic/posix_types.h \
   include/linux/poison.h \
     $(wildcard include/config/illegal/pointer/value.h) \
   include/linux/const.h \
   include/linux/stat.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/stat.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/stat.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
   include/linux/cache.h \
@@ -61,22 +61,22 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
     $(wildcard include/config/numa.h) \
     $(wildcard include/config/compaction.h) \
   include/linux/sysinfo.h \
-  /home/ww/smart/orangepi-build/toolchains/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include/stdarg.h \
+  /home/ww/workspace/orangepi/orangepi-build/toolchains/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/5.5.0/include/stdarg.h \
   include/linux/linkage.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/linkage.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/linkage.h \
   include/linux/bitops.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/bitops.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/bitops.h \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
     $(wildcard include/config/irqsoff/tracer.h) \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/irqflags.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/ptrace.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/irqflags.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/hwcap.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/hwcap.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/sched.h \
@@ -85,10 +85,10 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/le.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/byteorder.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/swab.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
   include/linux/log2.h \
@@ -100,16 +100,16 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
   include/linux/init.h \
     $(wildcard include/config/hotplug.h) \
   include/linux/dynamic_debug.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/div64.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/compiler.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/bug.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/div64.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/compiler.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/debug/bugverbose.h) \
     $(wildcard include/config/arm/lpae.h) \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/cache.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
   include/linux/seqlock.h \
@@ -124,12 +124,12 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
     $(wildcard include/config/preempt/notifiers.h) \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/thread_info.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/fpstate.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/page.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/page.h \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
@@ -141,9 +141,9 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
     $(wildcard include/config/have/arch/pfn/valid.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/glue.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/pgtable-2level-types.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/memory.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/glue.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/pgtable-2level-types.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/memory.h \
     $(wildcard include/config/need/mach/memory/h.h) \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/highmem.h) \
@@ -176,31 +176,31 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
     $(wildcard include/config/sparsemem/vmemmap.h) \
     $(wildcard include/config/sparsemem.h) \
   include/asm-generic/getorder.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/domain.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/domain.h \
     $(wildcard include/config/io/36.h) \
     $(wildcard include/config/cpu/use/domains.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/barrier.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/barrier.h \
     $(wildcard include/config/cpu/32v6k.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/arch/has/barriers.h) \
     $(wildcard include/config/arm/dma/mem/bufferable.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/outercache.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/outercache.h \
     $(wildcard include/config/outer/cache/sync.h) \
     $(wildcard include/config/outer/cache.h) \
   include/linux/stringify.h \
   include/linux/bottom_half.h \
   include/linux/spinlock_types.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/spinlock_types.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/spinlock_types.h \
   include/linux/lockdep.h \
     $(wildcard include/config/lockdep.h) \
     $(wildcard include/config/lock/stat.h) \
     $(wildcard include/config/prove/rcu.h) \
   include/linux/rwlock_types.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/spinlock.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/processor.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/spinlock.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/processor.h \
     $(wildcard include/config/have/hw/breakpoint.h) \
     $(wildcard include/config/arm/errata/754327.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/hw_breakpoint.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/hw_breakpoint.h \
   include/linux/rwlock.h \
   include/linux/spinlock_api_smp.h \
     $(wildcard include/config/inline/spin/lock.h) \
@@ -235,8 +235,8 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
   include/linux/atomic.h \
     $(wildcard include/config/arch/has/atomic/or.h) \
     $(wildcard include/config/generic/atomic64.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/atomic.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/cmpxchg.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/atomic.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/cmpxchg.h \
     $(wildcard include/config/cpu/sa110.h) \
     $(wildcard include/config/cpu/v6.h) \
   include/asm-generic/cmpxchg-local.h \
@@ -267,7 +267,7 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
     $(wildcard include/config/holes/in/zone.h) \
     $(wildcard include/config/arch/has/holes/memorymodel.h) \
   include/linux/wait.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/current.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/current.h \
   include/linux/threads.h \
     $(wildcard include/config/nr/cpus.h) \
     $(wildcard include/config/base/small.h) \
@@ -277,7 +277,7 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
   include/linux/bitmap.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/string.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
@@ -325,7 +325,7 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
     $(wildcard include/config/use/percpu/numa/node/id.h) \
   include/linux/smp.h \
     $(wildcard include/config/use/generic/smp/helpers.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/smp.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/smp.h \
   include/linux/percpu.h \
     $(wildcard include/config/need/per/cpu/embed/first/chunk.h) \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
@@ -335,7 +335,7 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/topology.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/topology.h \
     $(wildcard include/config/arm/cpu/topology.h) \
     $(wildcard include/config/disable/cpu/sched/domain/balance.h) \
   include/asm-generic/topology.h \
@@ -353,17 +353,17 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/linux/param.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/param.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/timex.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/timex.h \
   arch/arm/mach-sunxi/include/mach/timex.h \
   include/linux/sysctl.h \
     $(wildcard include/config/sysctl.h) \
   include/linux/rbtree.h \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/elf.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/user.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/elf.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/user.h \
   include/linux/kobject.h \
   include/linux/sysfs.h \
   include/linux/kobject_ns.h \
@@ -376,20 +376,20 @@ deps_/home/ww/smart/modules/SR_04/SR_04.mod.o := \
   include/linux/static_key.h \
   include/linux/jump_label.h \
     $(wildcard include/config/jump/label.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/jump_label.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/system.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/exec.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/switch_to.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/system_info.h \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/system_misc.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/jump_label.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/system.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/exec.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/switch_to.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/system_info.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/system_misc.h \
   include/linux/export.h \
     $(wildcard include/config/symbol/prefix.h) \
     $(wildcard include/config/modversions.h) \
-  /home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/module.h \
+  /home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/linux/vermagic.h \
   include/generated/utsrelease.h \
 
-/home/ww/smart/modules/SR_04/SR_04.mod.o: $(deps_/home/ww/smart/modules/SR_04/SR_04.mod.o)
+/home/ww/workspace/orangepi/smart_cat_modules/SR_04/SR_04.mod.o: $(deps_/home/ww/workspace/orangepi/smart_cat_modules/SR_04/SR_04.mod.o)
 
-$(deps_/home/ww/smart/modules/SR_04/SR_04.mod.o):
+$(deps_/home/ww/workspace/orangepi/smart_cat_modules/SR_04/SR_04.mod.o):

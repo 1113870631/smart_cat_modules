@@ -1,4 +1,4 @@
-KERNEL_DIR =/home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i
+KERNEL_DIR =/home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i
 CURRENT_DIR =$(shell pwd)
 
 obj-m = SR_04.o

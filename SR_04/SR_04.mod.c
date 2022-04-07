@@ -33,12 +33,12 @@ __attribute__((section("__versions"))) = {
 	{ 0x60641d6a, "cdev_add" },
 	{ 0x4db2466a, "cdev_init" },
 	{ 0x29537c9e, "alloc_chrdev_region" },
+	{ 0x27e1a049, "printk" },
 	{ 0x4f68e5c9, "do_gettimeofday" },
 	{ 0x6c8d5ae8, "__gpio_get_value" },
 	{ 0x8e865d3c, "arm_delay_ops" },
 	{ 0x432fd7f6, "__gpio_set_value" },
 	{ 0xa8f59416, "gpio_direction_output" },
-	{ 0x27e1a049, "printk" },
 	{ 0x2e5810c6, "__aeabi_unwind_cpp_pr1" },
 	{ 0xb1ad28e0, "__gnu_mcount_nc" },
 };

@@ -39,16 +39,16 @@ struct cdev sr04_cdev1={
 
 irqreturn_t SR04_cdev1_irq_handler_t(int tmp_int, void * tmp_void){
 
-    printk("irq\n");
+    //printk("irq\n");
    if(gpio_get_value(SR04_cdev1.gpio_echo)){
        do_gettimeofday(&tstart);
    }
    else{
        do_gettimeofday(&tend);
-        printk("%s, stime: %lds, utime: %ldus\n", __func__, tstart.tv_sec, tstart.tv_usec);
+       /*  printk("%s, stime: %lds, utime: %ldus\n", __func__, tstart.tv_sec, tstart.tv_usec);
         printk("%s, before mtime: %ldus\n", __func__, 1000 * 1000 * tstart.tv_sec + tstart.tv_usec);
         printk("%s, stime: %lds, utime: %ldus\n", __func__, tend.tv_sec, tend.tv_usec);
-        printk("%s, after mtime: %ldus\n", __func__, 1000 * 1000 * tend.tv_sec + tend.tv_usec);
+        printk("%s, after mtime: %ldus\n", __func__, 1000 * 1000 * tend.tv_sec + tend.tv_usec); */
         int tmp=tend.tv_usec-tstart.tv_usec;
         if(tmp>0){
             printk("%d\n",tmp);
@@ -66,7 +66,7 @@ irqreturn_t SR04_cdev1_irq_handler_t(int tmp_int, void * tmp_void){
 //file_ops
 int SR04_cdev1_file_operations_open (struct inode * inode, struct file * file){
 
-    printk("SR04_cdev1_file_operations_open\n");
+    //printk("SR04_cdev1_file_operations_open\n");
     gpio_direction_output(SR04_cdev1.gpio_trige,0);
     gpio_set_value(SR04_cdev1.gpio_trige,1);
     mdelay(3);//延时3ms
@@ -79,7 +79,6 @@ int SR04_cdev1_file_operations_open (struct inode * inode, struct file * file){
 static int SR04_cdev1_file_operations_release(struct inode *inode, struct file *file)
 {
   
-  printk("release\n");
   return 0;
 }
 

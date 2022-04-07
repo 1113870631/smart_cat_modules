@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/ww/smart/orangepi-build/kernel/orange-pi-3.4-sun8i"
+                "/home/ww/workspace/orangepi/orangepi-build/kernel/orange-pi-3.4-sun8i"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
